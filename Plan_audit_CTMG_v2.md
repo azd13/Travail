@@ -50,12 +50,18 @@ Grille de Bédat : configuration, gouvernance, acteurs clés, biais cognitifs, d
 - **Empreinte des débuts** (Stinchcombe, 1965) et **dépendance au chemin emprunté** : la structure managériale actuelle est née d'une gestion de crise, sous tutelle. Elle a gardé une logique de contrôle alors que le contexte s'est stabilisé.
 
 ### 4. Structure de gouvernance : une architecture de type dualiste (2 p.)
-- **Constat :** Unisanté est un établissement autonome de droit public. Son Conseil, qui supervise, est distinct de la direction générale, qui exécute. Les deux seraient nommés par le Conseil d'État (⚠️ à vérifier dans le décret de 2018 et le règlement RDPMU de 2019 avant rédaction).
+- **Constat (sources institutionnelles recoupées) :** Unisanté est un établissement autonome de droit public.
+  - **Base légale :** décret 810.211 et règlement d'application 810.211.1 (RDPMU, 10.04.2019).
+  - **Conseil d'Unisanté :** organe de surveillance et d'orientation de 7 à 8 membres, désignés par le Conseil d'État pour la législature 2022-2027. Il adopte le plan stratégique (soumis à la ratification du Conseil d'État), le budget, les objectifs annuels et les comptes, et valide le contrat de prestations avec le Département de la santé et de l'action sociale (DSAS).
+  - **Composition :** le Conseil compte parmi ses membres la directrice générale de la santé ad interim, c'est-à-dire l'administration de tutelle.
+  - **Direction générale :** le directeur général est désigné par le Conseil d'État. Il préside un comité de direction qui réunit les directions transversales (finances, **RH**, médicale, soins) et les chefs des 7 départements, dont le DUSC. La CTMG est un secteur du DUSC depuis le 01.07.2024.
+  - ⚠️ Le rôle exact du Conseil dans la nomination du directeur (préavis ou non) est à vérifier dans le texte du RDPMU.
 - **Qualification :** ce modèle se rapproche d'un **système dualiste** (Jungmann, 2006), avec une séparation organique entre surveillance et direction. Il se distingue du modèle moniste du conseil d'administration de SA suisse (Kunz, 2010 ; Vatiero, 2017 ; Schmid & Zimmermann, 2008 pour la séparation président/directeur).
 - **Conséquences pour l'orchestration RH :**
   - **Avantage du dualisme :** l'indépendance du contrôle, qui permet en principe un regard critique sur la direction.
   - **Limite 1, l'asymétrie d'information :** l'organe de surveillance dépend de l'information que lui transmet la direction. Il est donc très exposé à ce qu'on lui montre (voir la section 6, biais de disponibilité). Plus la chaîne est longue (Conseil, direction générale, DUSC, service), plus le filtrage est fort.
-  - **Limite 2, un double principal :** si la direction générale est nommée par le Conseil d'État et non par le Conseil, le levier disciplinaire du Conseil sur l'exécutif est affaibli.
+  - **Limite 2, un double principal :** la direction générale est désignée par le Conseil d'État, et non par le Conseil. Le levier disciplinaire du Conseil sur l'exécutif s'en trouve affaibli. De plus, la présence de l'administration de tutelle au sein du Conseil mélange surveillance et tutelle (Waterman & Meier, 1998 ; Jungmann, 2006).
+  - **Limite 2 bis, la place de la fonction RH :** la DRH siège au comité de direction, donc à l'échelon exécutif, mais pas au Conseil. Aucun élément public n'indique de commission RH au sein du Conseil. Un bon angle pour Hilb (2016) et Bédat (2024) : les questions RH arrivent au Conseil, si elles y arrivent, déjà filtrées par l'exécutif.
   - **Limite 3, un dualisme qui se répète dans le service :** la CTMG juxtapose une ligne médicale (responsable médicale, médecins formateurs) et une ligne managériale (cheffe de service, cadres, chefs de salle). Les chefs de salle se trouvent à l'intersection de ces deux lignes sans autorité formelle.
 - **Le Conseil comme groupe de décision** (Forbes & Milliken, 1999). La qualité de son rôle dépend de ses normes d'effort, de l'usage des connaissances et du débat critique. La question d'audit à poser au Conseil : quelle information RH lui parvient-elle ? Voir aussi Bédat (2024) sur l'influence du CA sur la stratégie RH dans le contexte suisse, et Hilb (2016) sur la gouvernance RH.
 - **Place de la gouvernance RH :** Lima et Galleli (2021) et Martin et al. (2016) décrivent plusieurs archétypes de lien entre gouvernance et GRH stratégique. Petrovic et al. (2018) voient la gouvernance comme le chaînon manquant entre GRH et performance. La CTMG se rapproche d'un modèle où les RH exécutent et ne sont pas un objet de gouvernance.
@@ -180,5 +186,5 @@ Les recommandations sont classées par horizon, chacune avec son fondement théo
 
 ## Points encore ouverts
 1. Accord de la régulatrice (E2) pour réutiliser son entretien.
-2. Statut exact d'Unisanté et mode de nomination du Conseil et de la direction générale : à vérifier dans le décret de 2018 et le règlement RDPMU de 2019.
+2. Nomination du Conseil et de la direction générale par le Conseil d'État : **confirmée**. Reste à vérifier le rôle exact du Conseil (préavis) dans le texte du RDPMU, ainsi que l'existence éventuelle d'une commission RH du Conseil.
 3. Rôle exact de l'EMCC dans la transition : à trouver dans une source publique.
