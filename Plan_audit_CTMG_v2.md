@@ -8,7 +8,7 @@
 
 **Données :**
 - **E1 :** entretien semi-directif avec un chef de salle, 16.09.2026, consentement donné pour ce module.
-- **E2 :** entretien par incidents critiques avec une régulatrice et praticienne formatrice, 28.11.2024, réalisé pour le module 002. ⚠️ Le consentement initial se limite aux correcteurs du module 002 : **il faut obtenir un accord de réutilisation.** Sinon, tous les passages marqués [E2] seront retirés ou réduits à une mention sans verbatim.
+- **E2 :** entretien par incidents critiques avec une régulatrice et praticienne formatrice, 28.11.2024, réalisé pour le module 002. Une autorisation de réutilisation pour ce travail sera demandée par l'auteur et mentionnée dans la note méthodologique et en annexe.
 - **Sources publiques :** communiqués du Canton de Vaud et d'Unisanté sur le rattachement, plan stratégique d'Unisanté.
 - Toutes les personnes sont anonymisées. On décrit des fonctions, pas des individus.
 
@@ -17,7 +17,7 @@
 ### 0. Note méthodologique et réflexivité (½ page, placée en début de travail)
 - Les données et leurs limites : deux entretiens, déclaratifs, issus du même groupe professionnel, sans le point de vue de la direction, des RH ou du Conseil.
 - **La position de l'auteur : un chef de salle, auditeur interne.** Ce point est à expliciter dès l'introduction, car il justifie la méthode :
-  - **Zones d'ombre assumées :** l'auteur n'a accès ni aux informations internes du service RH d'Unisanté (dossiers, statistiques de turnover et d'absentéisme, entretiens de départ, rapport et conclusions de l'audit interne), ni aux délibérations du Conseil, de la direction générale ou de la direction du service. Il ne peut donc pas produire de données internes chiffrées. Les éléments qui en relèvent sont présentés comme perçus ou rapportés, et jamais comme établis.
+  - **Zones d'ombre assumées :** l'auteur n'a accès ni aux informations internes du service RH d'Unisanté (dossiers, statistiques de turnover et d'absentéisme, entretiens de départ, rapport et conclusions de l'audit interne), ni aux délibérations du Conseil, de la direction générale ou de la direction du service. Il ne peut donc pas produire de données internes chiffrées. Le turnover et l'absentéisme sont **observés sur le terrain** (départs successifs, remplacements, sous-effectif, heures supplémentaires) mais ne sont pas chiffrés. Ils sont présentés comme des observations de terrain et des propos rapportés, et jamais comme des statistiques.
   - **Justification du matériau :** le diagnostic s'appuie sur ce qui est accessible depuis la position de chef de salle, et c'est précisément l'information que la gouvernance ne voit pas (voir 6.1). On mobilise donc (a) les observations de terrain de l'auteur, (b) deux entretiens avec des collaborateurs de terrain, un chef de salle (E1) et une régulatrice et praticienne formatrice (E2), (c) des sources institutionnelles publiques.
   - **Cette limite devient un résultat :** si un chef de salle ne peut pas savoir ce que l'audit interne a conclu, cela illustre l'asymétrie d'information analysée dans la suite du travail.
   - **Biais possibles de l'auteur :** biais de confirmation et d'échantillonnage (les interviewés font partie de son réseau). Mesures prises : triangulation, interprétations formulées comme des hypothèses, recherche active d'éléments contraires. E1 en fournit plusieurs : la crise de la Fondation n'était pas une crise de confiance envers la hiérarchie, la communication s'est améliorée, et il refuse de « mettre tous les cadres dans le même panier ».
@@ -198,6 +198,6 @@ Les recommandations sont classées par horizon, chacune avec son fondement théo
 ---
 
 ## Points encore ouverts
-1. Accord de la régulatrice (E2) pour réutiliser son entretien.
+1. Autorisation de la régulatrice (E2) : demandée par l'auteur, à mentionner une fois obtenue.
 2. Nomination du Conseil et de la direction générale par le Conseil d'État : **confirmée**. Reste à vérifier le rôle exact du Conseil (préavis) dans le texte du RDPMU, ainsi que l'existence éventuelle d'une commission RH du Conseil.
 3. Rôle exact de l'EMCC dans la transition : à trouver dans une source publique.
