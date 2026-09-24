@@ -46,7 +46,7 @@ ax.text(50, 146, "Environnement institutionnel (configuration « administration 
 box(3, 134, 27, 8.5, "Cantons mandants", "Vaud et Neuchâtel\n(mandat, financement)", fc="white")
 box(36.5, 134, 27, 8.5, "Conseil d'État vaudois", "désigne le Conseil et le DG,\nratifie le plan stratégique",
     fc=NAVY_L, ec=NAVY)
-box(70, 134, 27, 8.5, "Unisanté", "sous la surveillance\ndu DSAS et de l'UNIL", fc="white")
+box(70, 134, 27, 8.5, "Université de Lausanne", "co-surveillance d'Unisanté\navec le DSAS", fc="white")
 # DSAS (Département de la santé et de l'action sociale), tutelle d'Unisanté
 box(37, 123.3, 26, 6.6, "DSAS", "Département de la santé et de l'action\nsociale – représenté au Conseil d'Unisanté", fc="white",
     ec=NAVY, tc=NAVY, ts=7.6, ss=5.9)
