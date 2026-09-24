@@ -47,8 +47,8 @@ box(3, 134, 27, 8.5, "Cantons mandants", "Vaud et Neuchâtel\n(mandat, financeme
 box(36.5, 134, 27, 8.5, "Conseil d'État vaudois", "désigne le Conseil et le DG,\nratifie le plan stratégique",
     fc=NAVY_L, ec=NAVY)
 box(70, 134, 27, 8.5, "Unisanté", "sous la surveillance\ndu DSAS et de l'UNIL", fc="white")
-# DGS (Direction générale de la santé), rattachée au DSAS
-box(37, 123.3, 26, 6.6, "DGS", "Direction générale de la santé (DSAS)\nsiège au Conseil d'Unisanté", fc="white",
+# DSAS (Département de la santé et de l'action sociale), tutelle d'Unisanté
+box(37, 123.3, 26, 6.6, "DSAS", "Département de la santé et de l'action\nsociale – représenté au Conseil d'Unisanté", fc="white",
     ec=NAVY, tc=NAVY, ts=7.6, ss=5.9)
 ax.plot([50, 50], [134, 130.5], color=NAVY, lw=0.9)
 
@@ -58,7 +58,7 @@ ax.text(9, 90.2, "UNISANTÉ – établissement autonome de droit public :\narchi
         fontsize=7.2, weight="bold", color=NAVY, va="bottom")
 box(4, 101, 36, 11, "Conseil d'Unisanté", "SURVEILLANCE ET ORIENTATION\nplan stratégique, budget,\nobjectifs annuels, comptes",
     fc="white", ec=NAVY, tc=NAVY)
-ax.text(22, 99.2, "dont la directrice générale de la santé (DGS)", ha="center", fontsize=6.1, style="italic",
+ax.text(22, 99.2, "dont une représentante du DSAS (tutelle)", ha="center", fontsize=6.1, style="italic",
         color=GREY_D)
 box(56, 101, 40, 11, "Direction générale", "EXÉCUTION\ncomité de direction : finances, RH,\nmédical, soins, 7 départements",
     fc="white", ec=NAVY, tc=NAVY)
