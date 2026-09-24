@@ -4,6 +4,7 @@ Usage :
     python3 md2docx.py sortie.docx partie1.md [partie2.md ...] [--titre-partie "..."] [--sans-page-titre]
 """
 import argparse
+import os
 import re
 
 from docx import Document
@@ -128,16 +129,29 @@ def render_markdown(doc, md_path):
             table = []
         if not s or s == "---":
             continue
+        img = re.match(r"^!\[(.*)\]\((.+)\)$", s)
+        if img:
+            path = os.path.join(os.path.dirname(os.path.abspath(md_path)), img.group(2))
+            pic = doc.add_paragraph()
+            pic.alignment = WD_ALIGN_PARAGRAPH.CENTER
+            pic.paragraph_format.keep_with_next = True
+            pic.add_run().add_picture(path, width=Cm(14.5))
+            cap = doc.add_paragraph()
+            cap.alignment = WD_ALIGN_PARAGRAPH.CENTER
+            r = cap.add_run(typo_fr(img.group(1)))
+            r.italic = True
+            r.font.size = Pt(9.5)
+            continue
         if s.startswith("### "):
+            h = doc.add_heading(typo_fr(s[4:]), level=3 if in_refs else 2)
             if s[4:].startswith("Annexe") and not s[4:].startswith("Annexe A"):
-                doc.add_paragraph().add_run().add_break(WD_BREAK.PAGE)
-            doc.add_heading(typo_fr(s[4:]), level=3 if in_refs else 2)
+                h.paragraph_format.page_break_before = True
         elif s.startswith("## "):
             t = s[3:]
             in_refs = t.lower().startswith("références") or t.lower().startswith("bibliographie")
+            h = doc.add_heading(typo_fr(t), level=1)
             if in_refs or t.startswith("Annexes"):
-                doc.add_paragraph().add_run().add_break(WD_BREAK.PAGE)
-            doc.add_heading(typo_fr(t), level=1)
+                h.paragraph_format.page_break_before = True
         else:
             p = doc.add_paragraph()
             add_inline(p, s)
