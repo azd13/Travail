@@ -21,7 +21,8 @@
 
 ### 1. Présentation de l'organisation et problème d'audit (1–1,5 p.)
 - **La CTMG :**
-  - ligne publique et gratuite, mandatée par les cantons de Vaud et de Neuchâtel ;
+  - **une structure publique**, placée sous l'autorité d'Unisanté, établissement autonome de droit public ;
+  - **elle agit sur mandat du Canton de Vaud.** Le Canton de Vaud confie aussi à la CTMG la prise en charge des appels du Canton de Neuchâtel : le numéro neuchâtelois de la médecine de garde aboutit à la centrale vaudoise (source cantonale neuchâteloise). La forme juridique de cette délégation (convention intercantonale ou contrat de prestations) n'est précisée par aucune source publique consultée. Elle est reprise d'après la connaissance de terrain de l'auteur, à signaler comme telle ;
   - rattachée depuis le 01.07.2024 au Département urgences et santé communautaires (DUSC) d'Unisanté, tandis que la centrale 144 a été rattachée au CHUV ;
   - la Fondation Urgences Santé a été dissoute de fait ;
   - la transition, pilotée sous l'égide de l'État, s'est déroulée de 2022 à 2024 (EMCC selon le module 002, à confirmer avec une source publique).
@@ -41,7 +42,15 @@ Grille de Bédat : configuration, gouvernance, acteurs clés, biais cognitifs, d
 
 ### 3. Configuration et facteurs environnementaux (1,5–2 p.)
 **3.1 Une configuration « administration publique » hybride** (diapositives 73 à 80)
-- **Pluralité des principaux** (Waterman & Meier, 1998) : les cantons mandants de Vaud et de Neuchâtel, les autorités de tutelle d'Unisanté (Département de la santé et de l'action sociale, UNIL), le Conseil d'Unisanté, la direction générale, le DUSC, puis la cheffe de service. La chaîne d'agence est longue, avec deux cantons pour un seul prestataire.
+- **Pluralité des principaux** (Waterman & Meier, 1998). La chaîne d'agence est la suivante :
+  - la population des deux cantons ;
+  - le Canton de Vaud, seul mandant, qui confie aussi à la CTMG la couverture du Canton de Neuchâtel ;
+  - les autorités de tutelle d'Unisanté (DSAS, UNIL) ;
+  - le Conseil d'Unisanté et la direction générale ;
+  - le DUSC ;
+  - la cheffe de service.
+
+  Le Canton de Neuchâtel est un **principal indirect** : ses usagers dépendent de la CTMG, mais il n'a pas de lien de gouvernance direct avec Unisanté. C'est une illustration de la délégation à des partenaires externes et de la dispersion des responsabilités (Giauque, 2024 ; diapositive 77).
 - **Gouvernance à distance et « indicatocratie »** (Giauque, 2024 ; Emery & Giauque, 2019). Ce qui remonte, ce sont les volumes d'appels (E2 : « la seule chose positive qu'on balance, c'est que c'est des bons chiffres »). C'est aussi une « myopie de l'efficience », qui privilégie l'efficience à court terme au détriment de l'efficacité.
 - **Paradoxe autonomie-contrôle** (diapositive 80). Les régulateurs sont très autonomes cliniquement (E2, cas de la maladie tropicale), mais sont pilotés au taux d'activité.
 - **Tension entre valeurs** : motivation de service public (Ritz, 2009 ; Vandenabeele et al., 2014) contre logique de flux.
