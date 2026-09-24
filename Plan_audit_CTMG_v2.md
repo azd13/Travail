@@ -164,7 +164,17 @@ Les recommandations sont classées par horizon, chacune avec son fondement théo
 - C. **Déclaration d'utilisation de l'IA** (1 page, obligatoire) : outil (Claude), étapes (lecture et synthèse des supports, structuration du plan, aide à la rédaction, relecture), principaux prompts et lien vers la conversation, apports et limites (vérification des sources et des faits par l'auteur, qui reste responsable).
 
 ### Bibliographie (APA 7)
-Uniquement des références de la bibliographie du module ou des références vérifiées, en tenant compte des corrections relevées dans la bibliographie distribuée. Par exemple, la bibliographie cite Hambrick & Crozier (1985), mais la diapositive 9 écrit « Hambrock ».
+**Règle :** les références théoriques proviennent des documents du module : les lectures obligatoires et recommandées de la convocation, la bibliographie thématique de J. Bédat et les sources citées sur les diapositives des jours 3 et 4. Toutes les références du plan ci-dessus en font partie. Les entrées de la bibliographie distribuée sont reprises en les mettant au format APA 7, avec le numéro, les pages et le DOI quand ils sont vérifiables. Les coquilles sont corrigées, par exemple « Hambrock » (diapositive 9) devient Hambrick & Crozier (1985).
+
+**Autres références de la bibliographie du module à mobiliser si utile :**
+- Gouvernance et cognition du conseil : Charreaux (2011), Haleblian & Rajagopalan (2006), Rindova (1999), Wirtz (2019).
+- Biais et moyens de les corriger : Hambrick & Mason (1984), Walsh & Fahey (1986), Tetlock (2000), Morewedge et al. (2015), Kahneman et al. (2019).
+- Fonction RH : Brandl & Pohler (2010), Boada-Cuerva et al. (2019), Caldwell (2011), Kelly & Gennard (2007), Ulrich & Dulebohn (2015).
+- Administration publique : Emery & Giauque (2003, 2012, 2023), Giauque et al. (2013), Giovannini & Giauque (2023), Daiser & Wirtz (2021).
+
+**Hors bibliographie du module :**
+- Les références du module 002 (Rousseau, Bass & Avolio, etc.) ne sont pas reprises, sauf éventuellement Rousseau (1995) en une mention.
+- Les faits sur l'organisation (rattachement, statut d'Unisanté) proviennent de sources institutionnelles publiques (État de Vaud, CHUV, Unisanté). Elles figurent dans une rubrique séparée « Sources institutionnelles ».
 
 ---
 
