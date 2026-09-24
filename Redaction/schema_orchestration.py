@@ -14,9 +14,9 @@ GREY_D = "#6B6B6B"
 ACCENT = "#B5462C"
 ACCENT_L = "#F6E3DD"
 
-fig, ax = plt.subplots(figsize=(7.4, 9.6))
+fig, ax = plt.subplots(figsize=(7.4, 10.45))
 ax.set_xlim(0, 104)
-ax.set_ylim(0, 136)
+ax.set_ylim(0, 148)
 ax.axis("off")
 
 
@@ -41,12 +41,16 @@ def cross(x, y, s=1.6):
 
 
 # ---------- Environnement institutionnel ----------
-ax.text(50, 134, "Environnement institutionnel (configuration « administration publique »)", ha="center",
+ax.text(50, 146, "Environnement institutionnel (configuration « administration publique »)", ha="center",
         fontsize=7.4, style="italic", color=GREY_D)
-box(3, 122, 27, 8.5, "Cantons mandants", "Vaud et Neuchâtel\n(mandat, financement)", fc="white")
-box(36.5, 122, 27, 8.5, "Conseil d'État vaudois", "désigne le Conseil et le DG,\nratifie le plan stratégique",
+box(3, 134, 27, 8.5, "Cantons mandants", "Vaud et Neuchâtel\n(mandat, financement)", fc="white")
+box(36.5, 134, 27, 8.5, "Conseil d'État vaudois", "désigne le Conseil et le DG,\nratifie le plan stratégique",
     fc=NAVY_L, ec=NAVY)
-box(70, 122, 27, 8.5, "Tutelle d'Unisanté", "DSAS et UNIL", fc="white")
+box(70, 134, 27, 8.5, "Unisanté", "sous la surveillance\ndu DSAS et de l'UNIL", fc="white")
+# DGS (Direction générale de la santé), rattachée au DSAS
+box(37, 123.3, 26, 6.6, "DGS", "Direction générale de la santé (DSAS)\nsiège au Conseil d'Unisanté", fc="white",
+    ec=NAVY, tc=NAVY, ts=7.6, ss=5.9)
+ax.plot([50, 50], [134, 130.5], color=NAVY, lw=0.9)
 
 # ---------- Unisanté : architecture de type dualiste ----------
 ax.add_patch(Rectangle((1.5, 88.5), 97, 29, fill=False, ec=NAVY, lw=1.2, ls=(0, (5, 3))))
@@ -54,7 +58,7 @@ ax.text(9, 90.2, "UNISANTÉ – établissement autonome de droit public :\narchi
         fontsize=7.2, weight="bold", color=NAVY, va="bottom")
 box(4, 101, 36, 11, "Conseil d'Unisanté", "SURVEILLANCE ET ORIENTATION\nplan stratégique, budget,\nobjectifs annuels, comptes",
     fc="white", ec=NAVY, tc=NAVY)
-ax.text(22, 99.2, "dont la direction générale de la santé (tutelle)", ha="center", fontsize=6.1, style="italic",
+ax.text(22, 99.2, "dont la directrice générale de la santé (DGS)", ha="center", fontsize=6.1, style="italic",
         color=GREY_D)
 box(56, 101, 40, 11, "Direction générale", "EXÉCUTION\ncomité de direction : finances, RH,\nmédical, soins, 7 départements",
     fc="white", ec=NAVY, tc=NAVY)
@@ -69,11 +73,11 @@ ax.annotate("", xy=(56, 106.5), xytext=(40, 106.5),
 ax.text(48, 108.3, "comptes rendus\n(information filtrée)", ha="center", fontsize=5.8, color=NAVY)
 
 # double principal
-arrow((45, 122), (26, 112.4), color=NAVY, lw=1.1)
-arrow((55, 122), (73, 112.4), color=NAVY, lw=1.1)
-ax.text(31, 118.2, "désigne", fontsize=6.2, color=NAVY, rotation=27)
-ax.text(62.5, 118.6, "désigne", fontsize=6.2, color=NAVY, rotation=-27)
-ax.text(50, 119.8, "double principal", ha="center", fontsize=6.4, weight="bold", color=ACCENT)
+arrow((38, 134), (22, 112.4), color=NAVY, lw=1.1)
+arrow((62, 134), (78, 112.4), color=NAVY, lw=1.1)
+ax.text(26.5, 124.5, "désigne", fontsize=6.2, color=NAVY, rotation=53)
+ax.text(69.5, 126.5, "désigne", fontsize=6.2, color=NAVY, rotation=-53)
+ax.text(50, 119.6, "double principal", ha="center", fontsize=6.4, weight="bold", color=ACCENT)
 
 # ---------- DUSC ----------
 box(22, 80, 56, 5.8, "DUSC – Département urgences et santé communautaires", "", fc=GREY, ec=GREY_D, ts=7.3)
@@ -102,7 +106,7 @@ ax.plot([40.6, 59.4], [40.2, 40.2], color=GREY_D, lw=0.8, ls=":")
 ax.text(50, 41.2, "intersection des deux lignes", ha="center", fontsize=5.8, style="italic", color=GREY_D)
 
 box(8, 18, 84, 11, "Équipes opérationnelles",
-    "33 régulateurs sanitaires (dont praticiens formateurs) · 16 agents de front-office · 2 administratifs\n"
+    "33 régulateurs sanitaires (dont 5 praticiens formateurs) · 16 agents de front-office · 2 administratifs\n"
     "expertise clinique largement tacite – autonomie élevée – turnover observé sur le terrain",
     fc="white", ec=GREY_D)
 arrow((26, 36), (26, 29.6), color=GREY_D, lw=0.9)

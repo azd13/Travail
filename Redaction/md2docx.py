@@ -135,7 +135,7 @@ def render_markdown(doc, md_path):
             pic = doc.add_paragraph()
             pic.alignment = WD_ALIGN_PARAGRAPH.CENTER
             pic.paragraph_format.keep_with_next = True
-            pic.add_run().add_picture(path, width=Cm(14.5))
+            pic.add_run().add_picture(path, width=Cm(13.6))
             cap = doc.add_paragraph()
             cap.alignment = WD_ALIGN_PARAGRAPH.CENTER
             r = cap.add_run(typo_fr(img.group(1)))
