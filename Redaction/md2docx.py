@@ -18,7 +18,8 @@ FONT = "Times New Roman"
 AUTEUR = "Azdine ZARGUI-NAJI"
 ENTETE = "Orchestration stratégique RH – Zargui-Naji"
 BLEU = RGBColor(0x1F, 0x3A, 0x5F)
-NBSP = " "
+NBSP = "\u00a0"
+TOC_MARKER = "[[SOMMAIRE]]"
 
 
 def set_font(style, size, bold=None, italic=None, color=None):
@@ -120,11 +121,13 @@ def render_markdown(doc, md_path):
         if not s or s == "---":
             continue
         if s.startswith("### "):
-            doc.add_heading(typo_fr(s[4:]), level=2)
+            if s[4:].startswith("Annexe") and not s[4:].startswith("Annexe A"):
+                doc.add_paragraph().add_run().add_break(WD_BREAK.PAGE)
+            doc.add_heading(typo_fr(s[4:]), level=3 if in_refs else 2)
         elif s.startswith("## "):
             t = s[3:]
             in_refs = t.lower().startswith("références") or t.lower().startswith("bibliographie")
-            if in_refs:
+            if in_refs or t.startswith("Annexes"):
                 doc.add_paragraph().add_run().add_break(WD_BREAK.PAGE)
             doc.add_heading(typo_fr(t), level=1)
         else:
@@ -202,12 +205,9 @@ def add_toc(doc):
     r.bold = True
     r.font.size = Pt(14)
     r.font.color.rgb = BLEU
-    add_field(doc.add_paragraph(), 'TOC \\o "1-2" \\h \\z \\u')
+    # repère remplacé par une vraie table des matières par maj_sommaire.py (LibreOffice)
+    doc.add_paragraph(TOC_MARKER)
     doc.add_paragraph().add_run().add_break(WD_BREAK.PAGE)
-    # Word propose de mettre à jour la table des matières à l'ouverture
-    upd = OxmlElement("w:updateFields")
-    upd.set(qn("w:val"), "true")
-    doc.settings.element.append(upd)
 
 
 def build(md_paths, out_path, titre_partie="", page_titre=True):
