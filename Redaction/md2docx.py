@@ -81,6 +81,9 @@ def add_table(doc, rows):
     t.alignment = WD_TABLE_ALIGNMENT.CENTER
     widths = [Cm(3.4), Cm(5.0), Cm(7.6)] if ncol == 3 else [Cm(16 / ncol)] * ncol
     for r, row in enumerate(rows):
+        cant = OxmlElement("w:cantSplit")
+        cant.set(qn("w:val"), "true")
+        t.rows[r]._tr.get_or_add_trPr().append(cant)
         for c, txt in enumerate(row):
             cell = t.cell(r, c)
             cell.width = widths[c]
@@ -93,6 +96,11 @@ def add_table(doc, rows):
                 run.font.size = Pt(10)
                 if r == 0:
                     run.bold = True
+            if r == 0 and c == 0:
+                trpr = t.rows[0]._tr.get_or_add_trPr()
+                hdr = OxmlElement("w:tblHeader")
+                hdr.set(qn("w:val"), "true")
+                trpr.append(hdr)
             if r == 0:
                 shd = OxmlElement("w:shd")
                 shd.set(qn("w:val"), "clear")
@@ -137,6 +145,8 @@ def render_markdown(doc, md_path):
                 p.alignment = WD_ALIGN_PARAGRAPH.LEFT
                 p.paragraph_format.left_indent = Cm(1.25)
                 p.paragraph_format.first_line_indent = Cm(-1.25)
+                p.paragraph_format.space_after = Pt(4)
+                p.paragraph_format.line_spacing = 1.0
 
 
 def setup_styles(doc):
@@ -153,8 +163,8 @@ def setup_styles(doc):
     for name, size in (("Heading 1", 14), ("Heading 2", 12.5), ("Heading 3", 12)):
         st = doc.styles[name]
         set_font(st, size, bold=True, italic=False, color=BLEU)
-        st.paragraph_format.space_before = Pt(18 if name == "Heading 1" else 12)
-        st.paragraph_format.space_after = Pt(6)
+        st.paragraph_format.space_before = Pt(14 if name == "Heading 1" else 9)
+        st.paragraph_format.space_after = Pt(4)
         st.paragraph_format.keep_with_next = True
         st.paragraph_format.line_spacing = 1.15
         st.paragraph_format.alignment = WD_ALIGN_PARAGRAPH.LEFT
